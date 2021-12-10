@@ -3,6 +3,9 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt powerlevel10k_modern
 
+#Icons
+Import-Module -Name Terminal-Icons
+
 #PSReadLine
 Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -BellStyle None
